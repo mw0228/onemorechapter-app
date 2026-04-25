@@ -5,7 +5,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 // e.g. "https://onemorechapter-proxy.up.railway.app"
 // For local testing use "http://localhost:3001"
 // ─────────────────────────────────────────────────────────────────────────────
-const PROXY_URL = "onemorechapter-production.up.railway.app";
+const PROXY_URL = "https://onemorechapter-production.up.railway.app";
 
 async function api(path) {
   try {
